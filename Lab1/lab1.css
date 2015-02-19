@@ -1,0 +1,63 @@
+body{
+	background: #ADD8E6;
+}
+#container{
+	width: 70%;
+	height: 50%;
+	margin-left: 12%;
+	margin-top: 10%;
+	/*background: #838383;*/
+	position: absolute;
+	border-radius: 20px;
+}
+
+p{
+	margin-top: -30px;
+	text-align: center;
+}
+
+#tweets{
+	width: 70%;
+	height: 90%;
+	margin:auto;
+	margin-bottom: 50px;
+	float: left;
+	margin-top: 3%;
+}
+
+#tweets div{
+	width:90%;
+	height: 15%;
+	/*border: 1px solid black;*/
+	margin-bottom: 10px;
+	margin-left: 5%;
+	background: #818181;
+	color: #F6FBFC;
+	border-radius: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#hashes{
+	width: 25%;
+	height: 90%;
+	margin: auto;
+	float: right;
+	margin-top: 3%;
+}
+
+#hashes div{
+	width:90%;
+	height: 15%;
+	/*border: 1px solid black;*/
+	background: #79ADBE;
+	color: white;
+	margin-bottom: 10px;
+	margin-right: 6%;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-left: 10px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
